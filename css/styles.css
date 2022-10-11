@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Montserrat:ital@1&display=swap');
+/* 
+font-family: 'Alkalami', serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CLASES PARA FUENTES */
+
+.titulo {
+    font-family: 'Alkalami', serif;
+}
+
+.texto {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ESTILOS DEL HEADER */
+header {
+    background-color: black;
+
+
+}
+
+header h1 {
+    color: white;
+    display: inline;
+    font-size: 25px;
+}
+
+header div {
+    display: inline-block;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+ul li {
+    display: inline;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* ESTILOS DEL MAIN INDEX */
+
+.banner {
+    background-image: url("../assets/img/STARWARS.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+/* MAIN GENERAL DE TODAS LAS PAGINAS */
+
+main {
+    background-color: bisque;
+
+
+}
+
+/* FORMULARIO- PAGINA DE CONTACTO */
+
+.formulario-contacto {
+    width: 300px;
+    background: rgba(128, 128, 128, 0.767);
+    margin: auto;
+    padding: 30px;
+    margin-left: 30px;
+    padding-bottom: 100px;
+
+
+
+}
+
+/* ARTICULOS-PAGINA DE PERSONAJES */
+
+.personajes {
+    margin: auto;
+    padding: 15px;
+
+
+}
+
+.contenedor-personajes {
+    width: 370px;
+    margin: 10px;
+    border: 1px solid black;
+    text-align: center;
+
+
+
+}
+
+.imagen-personajes {
+    width: 350px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.titulo-personajes {
+    text-align: center;
+    
+}
+
+.parrafo-personajes {
+    text-align: center;
+}
+
+/* ESTILOS DEL FOOTER */
+
+footer {
+    background-color: black;
+    color: white;
+
+
+
+}
